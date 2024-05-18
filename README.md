@@ -19,9 +19,15 @@
 - hierarchical inheritance
 - hybrid inheritance (not suppported in java)
 - polymorphism 
+- compile-time / static polymorphism - overloading
+- run-time / dynamic polymorphism - overriding
+- upcasting
+- downcasting
+- dynamic method dispatch
 - abstraction 
 - encapsulation
 
+- every class is inherited from object class
 ## Inheritance
 - child class can call the constructors of parent class using the super() keyword
 - child classes can't access private entities of the parent class if the sub class is not defined in the same file
