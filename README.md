@@ -24,8 +24,11 @@
 - upcasting
 - downcasting
 - dynamic method dispatch
-- abstraction 
+- final 
 - encapsulation
+- access modifiers : public, private, protected 
+- abstraction 
+- built-in packages
 
 - every class is inherited from object class
 ## Inheritance
@@ -54,3 +57,11 @@ WeightedBox(int l, int b, int h, int w, int parent_w){
     super.w = parent_w;
 }
 ```
+
+## Built in packages
+- lang : java language specific classes (operation, primitves etc) 
+- io : input/output classes
+- util :  data structures, collection framework
+- applet
+- awt
+- net : networking related classes
