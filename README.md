@@ -14,6 +14,10 @@
 ` Box b2 = new WeightedBox(4, 5, 8, 90)`
 - - why this is giving error
 ` WeightedBox b2 = new Box(4, 5, 8, 90)`
+- multilevel inheritance
+- multiple inheritance (not supported in java)
+- hierarchical inheritance
+- hybrid inheritance (not suppported in java)
 - polymorphism 
 - abstraction 
 - encapsulation
