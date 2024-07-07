@@ -12,7 +12,7 @@
 - super()
 - why only l,b,h can be accessed with the object b2 in the below code 
 ` Box b2 = new WeightedBox(4, 5, 8, 90)`
-- - why this is giving error
+- why this is giving error
 ` WeightedBox b2 = new Box(4, 5, 8, 90)`
 - multilevel inheritance
 - multiple inheritance (not supported in java)
