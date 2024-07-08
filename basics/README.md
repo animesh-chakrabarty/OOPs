@@ -32,4 +32,7 @@ _IMP: If we change only the return type of the method that won't work if both me
 
 _IMP: If any constructor is defined in the class, the default constructor provided by the compiler will be inaccessible_
 
-##
+## this keyword
+- this keyword is used to refer to the current object inside a method or a constructor
+
+_IMP: this can also be used to invoke methods of the current class or to invoke a constructor of the current class_

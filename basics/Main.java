@@ -10,6 +10,9 @@ public class Main {
         d2.name = "tommy";
         d2.walk();
 
+        System.out.println(d1);
+        System.out.println(d2);
+
     }
 }
 
