@@ -14,3 +14,7 @@ _IMP: Memory for objects are allocated during run-time_
 - Heap: The actual object is stored in heap memory
 - Stack: The reference variable of objects are stored in stack memory
 
+## Method Overloading
+Two or more methods can have the same name inside the same class if they accept different arguments. 
+
+_IMP: If we change only the return type of the method that won't work if both methods have same no. of arguments or the arguments are of same data type_
