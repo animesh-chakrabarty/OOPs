@@ -8,6 +8,12 @@ _IMP: One file can have multiple classes but only one public class and the name 
 
 _IMP: Execution of java code starts from the main function of the public class_
 
+_IMP: One package can't have two classes of same name_
+
+## Types of variables
+- Reference variables:
+- instance variables:
+
 ## Memory 
 _IMP: Memory for objects are allocated during run-time_
 - Metaspace: Metaspace is used to store the metadata (properties & methods) of the classes
@@ -18,3 +24,12 @@ _IMP: Memory for objects are allocated during run-time_
 Two or more methods can have the same name inside the same class if they accept different arguments. 
 
 _IMP: If we change only the return type of the method that won't work if both methods have same no. of arguments or the arguments are of same data type_
+
+## Constructor
+- It is a block of code similar to method. It is called when an object is created
+
+- If a class doesn't have a constructor, Java compiler creates a default constructor during run-time. The default constructor initializes the instance variables with the default values
+
+_IMP: If any constructor is defined in the class, the default constructor provided by the compiler will be inaccessible_
+
+##
