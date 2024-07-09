@@ -17,3 +17,11 @@ _IMP: Every class in java is inherited from Object class_
 - super keyword is used to access the instance variable (super.propertyName), methods (super.methodName()) & constructors (super()) of immediate parent class
 
 _IMP: when any contstructor of the child class is invoked the default constructor of the parent class will also be invoked automatically_
+
+## final keyword
+- final keyword is a non-access modifier that is used to define entities that cannot be changed or modified.
+1. final variable: variable with final keyword cannot be assigned again. It's value should be intialized during declaration.
+2. final method: method with final keyword cannot be overriden by its subclass
+3. final class: class with final keyword can't be extended or inherited from other classes
+
+

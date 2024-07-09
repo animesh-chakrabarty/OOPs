@@ -70,3 +70,5 @@ class ColoredBox{
     }
 }
 ```
+
+_IMP: if super() or this() is needed inside a constructor then it must be the first statement in the constructor_
