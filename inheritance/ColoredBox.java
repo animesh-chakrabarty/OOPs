@@ -8,6 +8,11 @@ public class ColoredBox extends Box {
         this.color = "red";
     }
 
+    ColoredBox(int length, String color) {
+        super(length);
+        this.color = color;
+    }
+
     ColoredBox(int length, int breadth, int height, String color) {
         super(length, breadth, height);
         this.color = color;
