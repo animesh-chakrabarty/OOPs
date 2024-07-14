@@ -8,7 +8,7 @@ _IMP: import statement is written directly after the package statement and befor
 - Access modifiers are used to set theaccessibility of classes, interfaces, variables, methods, constructors, data memebers and setter methods.
 
 _The 4 access modifiers in java are -_
-- Default 
+- Default or package-private
 - public
 - private
 - protected
