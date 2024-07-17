@@ -1,9 +1,9 @@
 ## Topics 
-- class
-- object 
-- reference variable 
-- instance variable
-- role of stack & heap memory 
+- [x] Class
+- [x] Object 
+- [x] Reference variable 
+- [x] Instance variable
+- [x] Role of stack & heap memory 
 - constructor 
 - package
 - import statement

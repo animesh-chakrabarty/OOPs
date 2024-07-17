@@ -20,3 +20,7 @@ _IMP: All methods inside an interface are implicitly public and all fields are i
 ## Nested static class
 
 ## Anonymous class
+
+## Functional interfaces
+
+## Lambda expression
