@@ -15,3 +15,8 @@
 
 _IMP: All methods inside an interface are implicitly public and all fields are implicitly public static final_
 
+## Inner class 
+
+## Nested static class
+
+## Anonymous class
