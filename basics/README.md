@@ -16,19 +16,24 @@ _IMP: One package can't have two classes of same name_
 - Reference variables:
 - instance variables:
 
-## Memory
+```java
+public class Car {
 
-_IMP: Memory for objects are allocated during run-time_
+  // Instance variables (properties of a Car object)
+  String color;
+  String model;
+  int speed;
+}
 
-- Metaspace: Metaspace is used to store the metadata (properties & methods) of the classes
-- Heap: The actual object is stored in heap memory
-- Stack: The reference variable of objects are stored in stack memory
+public class Main {
+  public static void main(String[] args) {
 
-## Method Overloading
+    // carRef is an reference variable which stores the reference to an object of class Car
+    Car carRef = new Car();
+  }
+}
+```
 
-Two or more methods can have the same name inside the same class if they accept different arguments.
-
-_IMP: If we change only the return type of the method that won't work if both methods have same no. of arguments or the arguments are of same data type_
 
 ## Constructor
 
@@ -37,6 +42,14 @@ _IMP: If we change only the return type of the method that won't work if both me
 - If a class doesn't have a constructor, Java compiler creates a default constructor during run-time. The default constructor initializes the instance variables with the default values
 
 _IMP: If any constructor is defined in the class, the default constructor provided by the compiler will be inaccessible_
+
+## Package
+- Package acts like a hierarchical folder system for organizing classes, interfaces, and even other sub-packages. 
+
+_IMP: the first line of any java file must be the package where the file is located_
+
+## import statement
+- import statement is used to import variable, method or classes from a different package 
 
 ## this keyword
 
@@ -72,3 +85,18 @@ class ColoredBox{
 ```
 
 _IMP: if super() or this() is needed inside a constructor then it must be the first statement in the constructor_
+
+## final keyword
+- final keyword is a non-access modifier that is used to define entities that cannot be changed or modified.
+1. final variable: variable with final keyword cannot be assigned again. It's value should be intialized during declaration.
+2. final method: method with final keyword cannot be overriden by its subclass
+3. final class: class with final keyword can't be extended or inherited from other classes
+
+## static keyword
+- if we want to access class members without creating an instance of the class, we need to declare the class members static.
+- static variables can be accessed by calling the class name of the class. There is no need to create an instance of the class for acccessing the static variables because static variables are the class variables and are shared among all the class instances. 
+- Only a single copy of the static variable is created and shared among all the instances of the class.
+- Because it is a class-level variable, memory allocation of such variables only happens once when the class is loaded in the memory.
+- If an object modifies the value of a static variable, the change is reflected across all objects.
+- Static variables can be used in any type of method: static or non-static.
+- Non-static variables cannot be used inside static methods. It will throw a compile-time error.

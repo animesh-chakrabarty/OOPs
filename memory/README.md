@@ -1,3 +1,11 @@
+## Memory
+
+_IMP: Memory for objects are allocated during run-time_
+
+- Metaspace: Metaspace is used to store the metadata (properties & methods) of the classes
+- Stack: The reference variable of objects are stored in stack memory
+- Heap: The actual object is stored in heap memory
+
 ## Stack memory
 - Stack memory is where the primitive data types and the reference variables to the objects are stored
 - Stack memory is short lived

@@ -1,30 +1,37 @@
-## Topics 
+## Basics
 - [x] Class
 - [x] Object 
 - [x] Reference variable 
 - [x] Instance variable
-- [x] Role of stack & heap memory 
-- constructor 
-- package
-- import statement
-- static keyword
-- inheritance
-- super()
-- why only l,b,h can be accessed with the object b2 in the below code 
+- [x] Role of stack & heap memory - memory 
+- [x] constructor 
+- [x] package
+- [x] import statement
+- [x] this 
+- [x] final 
+- [x] static 
+
+## Inheritance
+- [x] inheritance
+- [x] super()
+- [x] why only l,b,h can be accessed with the object b2 in the below code 
 ` Box b2 = new WeightedBox(4, 5, 8, 90)`
-- why this is giving error
+- [x] why this is giving error
 ` WeightedBox b2 = new Box(4, 5, 8, 90)`
-- multilevel inheritance
-- multiple inheritance (not supported in java)
-- hierarchical inheritance
-- hybrid inheritance (not suppported in java)
-- polymorphism 
-- compile-time / static polymorphism - overloading
-- run-time / dynamic polymorphism - overriding
-- upcasting
-- downcasting
+- [x] single inheritance
+- [x] multilevel inheritance
+- [x] hierarchical inheritance
+- [x] multiple inheritance (not supported in java)
+- [x] hybrid inheritance (not suppported in java)
+- [x] upcasting
+- [x] downcasting
+
+## Polymorphism
+- [x] polymorphism 
+- [x] compile-time / static polymorphism - method overloading
+- [x] run-time / dynamic polymorphism - overriding
 - dynamic method dispatch
-- final 
+
 - encapsulation
 - access modifiers : public, private, protected 
 - abstraction 
