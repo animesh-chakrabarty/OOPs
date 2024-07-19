@@ -32,8 +32,11 @@
 - [x] run-time / dynamic polymorphism - overriding
 - dynamic method dispatch
 
-- encapsulation
-- access modifiers : public, private, protected 
+## Encapsulation
+- [x] encapsulation
+- [x] access modifiers : deafult, public, private, protected 
+- [x] getter & setter
+
 - abstraction 
 - built-in packages
 

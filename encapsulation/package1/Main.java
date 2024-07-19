@@ -1,6 +1,6 @@
 package encapsulation.package1;
 
-import encapsulation.package1.Teacher;
+import encapsulation.school_entity.*;
 
 public class Main {
     static {
@@ -16,7 +16,7 @@ public class Main {
         t2.printTeacherDetails();
 
         // static variable
-        System.out.println(Teacher.totalTeacherCount);
+        Teacher.printTotalTeacherCount();
 
     }
 }

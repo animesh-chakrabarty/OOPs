@@ -51,6 +51,8 @@ _IMP: the first line of any java file must be the package where the file is loca
 ## import statement
 - import statement is used to import variable, method or classes from a different package 
 
+_IMP: import statement is written directly after the package statement and before the class definition_
+
 ## this keyword
 
 - this keyword is used to refer to the current object inside a method or a constructor
@@ -100,3 +102,4 @@ _IMP: if super() or this() is needed inside a constructor then it must be the fi
 - If an object modifies the value of a static variable, the change is reflected across all objects.
 - Static variables can be used in any type of method: static or non-static.
 - Non-static variables cannot be used inside static methods. It will throw a compile-time error.
+- static methods can be accessed without creating a object of that class

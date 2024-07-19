@@ -1,4 +1,4 @@
-package encapsulation.package1;
+package encapsulation.school_entity;
 
 public class Teacher {
     private String name;
@@ -38,6 +38,10 @@ public class Teacher {
 
     public void printTeacherDetails() {
         System.out.println(this.name + " has " + this.exp + " years of experience. Id - " + this.id);
+    }
+
+    public static void printTotalTeacherCount() {
+        System.out.println("Total teacher count for this school is: " + totalTeacherCount);
     }
 
 }
