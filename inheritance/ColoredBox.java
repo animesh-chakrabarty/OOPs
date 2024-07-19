@@ -19,6 +19,7 @@ public class ColoredBox extends Box {
     }
 
     // overriding printBoxDimensions() method
+    @Override
     void printBoxDimensions() {
         System.out
                 .println("length: " + this.l + " breadth: " + this.b + " height: " + this.h + " color: " + this.color);
