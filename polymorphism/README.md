@@ -1,6 +1,6 @@
 ## polymorphism
-- method overriding: run-time polymorphism
 - method overloading: compile-time polymorphism
+- method overriding: run-time polymorphism
 
 ## Method Overloading
 
