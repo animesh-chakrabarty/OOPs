@@ -83,3 +83,25 @@ public class DowncastingExample {
 }
 ```
 
+## special usecase of super keyword 
+```java
+public class Box {
+    int l;
+    int b;
+    int h;
+    int w;
+}
+
+public class WeightedBox extends Box{
+    int w;
+}
+
+WeightedBox(int l, int b, int h, int w, int parent_w){
+    this.l = l;
+    this.b = b;
+    this.h = h;
+    this.w = w;
+    //as we can see in this example the parent class(Box) & child class(WeightedBox) both have a instance variable named w. If we want to initialize the w variable of the parent class from the constructor of child class we can't do that using this keyword. We've to use super keyword to refer to the w of the parent class.
+    super.w = parent_w;
+}
+```
