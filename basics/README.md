@@ -1,5 +1,15 @@
 # Basics
 
+_In java, the java compiler first converts the code we write into byte code that the machine understands. Then the byte is executed into JVM_
+
+## Platform Independent Behaviour
+_We can share byte code of any java program to someone else and they can also run the same code in their own machine (if JRE is installed). That's how java is platform independent_ 
+
+## JVM, JRE & JDK
+- JVM: Virtual Machine which executes java byte code 
+- JRE: JVM + core libraries + in-built packages
+- JDK: JRE + java compiler + other development tools
+
 ## Class & Object
 
 - class: class is a blueprint that defines some properties & behaviours(method/function)

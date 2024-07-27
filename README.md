@@ -1,4 +1,5 @@
 ## Basics
+- [x] JVM, JRE & JDK
 - [x] Class
 - [x] Object 
 - [x] Reference variable 
