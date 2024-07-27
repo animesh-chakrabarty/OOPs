@@ -12,6 +12,11 @@
 - [x] final 
 - [x] static 
 
+## Memory
+- Stack memory
+- Heap memory
+- Stack frame / activation record
+
 ## Inheritance
 - [x] inheritance
 - [x] super()
