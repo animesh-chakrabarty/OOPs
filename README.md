@@ -1,4 +1,4 @@
-## Basics
+## _Basics_
 - [x] JVM, JRE & JDK
 - [x] Class
 - [x] Object 
@@ -11,13 +11,15 @@
 - [x] this 
 - [x] final 
 - [x] static 
+- Link : [README.md](./basics/README.md)
 
-## Memory
-- Stack memory
-- Heap memory
-- Stack frame / activation record
+## _Memory_
+- [x] Stack memory
+- [x] Heap memory
+- [x] Stack frame / activation record
+- Link : [README.md](./memory/README.md)
 
-## Inheritance
+## _Inheritance_
 - [x] inheritance
 - [x] super()
 - [x] why only l,b,h can be accessed with the object b2 in the below code 
@@ -31,19 +33,22 @@
 - [x] hybrid inheritance (not suppported in java)
 - [x] upcasting
 - [x] downcasting
+- Link : [README.md](./inheritance/README.md)
 
-## Polymorphism
+## _Polymorphism_
 - [x] polymorphism 
 - [x] compile-time / static polymorphism - method overloading
 - [x] run-time / dynamic polymorphism - overriding
 - dynamic method dispatch
+- Link : [README.md](./polymorphism/README.md)
 
-## Encapsulation
+## _Encapsulation_
 - [x] encapsulation
 - [x] access modifiers : deafult, public, private, protected 
 - [x] getter & setter
+- Link : [README.md](./encapsulation/README.md)
 
-## Abstraction 
+## _Abstraction_ 
 - Abstract class 
 - Abstract method
 - interface
@@ -51,8 +56,9 @@
 - Nested Static class
 - Functional interface
 - Lambda expression
+- Link : [README.md](./abstraction/README.md)
 
-## Built in packages
+## _Built in packages_
 - lang : java language specific classes (operation, primitves etc) 
 - io : input/output classes
 - util :  data structures, collection framework
